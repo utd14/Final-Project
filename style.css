@@ -1,0 +1,16 @@
+body {
+    background: #1E1E1E;
+}
+
+.nav > li > .dropdown-menu { 
+    background-color: #343A40;
+}
+
+.dropdown-item {
+    background-color: #343A40;
+    color: #fff;
+    } 
+
+header {
+        background: #171717;
+}
