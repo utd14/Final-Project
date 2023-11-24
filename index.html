@@ -74,9 +74,9 @@
       </script>
 
       <script>
-        $.fn.liveBorder = function(options){
+        $.fn.movingBorder = function(options){
           var settings = $.extend({}, {top: false, right: false, bottom: true, left: false}, options);
-          var border = $("<div>").addClass("live-border");
+          var border = $("<div>").addClass("moving-border");
 
           if(settings.top)
             border.append($("<div>", {class: "border top"}).append($("<div>", {class: "bar"})));
@@ -94,7 +94,7 @@
       <br>
 
       <div class="containerborder">
-        <div class="live-border">
+        <div class="moving-border">
           <div class="border top">
             <div class="bar"></div>
           </div>
